@@ -10,7 +10,7 @@ public class DBConnector {
 	private static String password = "";
 
 	public Connection getConnection() {
-		connectiion con = null;
+		Connection con = null;
 
 		try {
 			Class.forName(driverName);
